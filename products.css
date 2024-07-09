@@ -1,0 +1,547 @@
+:root{
+    --pink: #e84393;
+    }
+   
+    body{
+        background-color: #ffedf6;
+     }
+    
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+
+section{
+    padding:2rem 9%;
+    }
+
+
+    .heading{
+        text-align: center;
+        font-size: 4rem;
+        color: #333;
+        padding: 1rem;
+        margin: 2rem 0;
+        background: rgba (255, 51, 153,.05);
+        }
+   
+        .heading span{
+            color:var(--pink);
+            }
+   
+        .btn{
+        display: inline-block;
+        margin-top: 1rem;
+        border-radius: 5rem;
+        background: #333;
+        color: #fff;
+        padding: .9rem 3.5rem;
+        cursor: pointer;
+        font-size: 1.7rem;
+        }
+       
+        .btn:hover{
+        background:var(--pink);
+        }
+
+
+ header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+
+header .logo{
+    font-size: 3rem;
+    color:#333;
+    font-weight: bolder;
+}
+
+
+header .logo span{
+    color:var(--pink);
+    }
+   
+    header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #333;
+}
+
+
+    header .navbar a:hover{
+        color:var(--pink);
+        }
+       
+        header .icons a{
+        font-size: 2.5rem;
+        color: #333;
+        margin-left: 1.5rem;
+    }
+       
+        header icons a:hover{
+        color: var (--pink);
+    }
+   
+    header #toggler{
+        display: none;
+    }
+       
+     header .fa-bars{
+        font-size: 3rem; color: #666;
+        border-radius: .5rem;
+        padding: .5rem 1.5rem;
+        cursor: pointer;
+        border: .1rem solid rgba(0,0,0,.3);
+        display: none;
+     }
+
+     header .logo{
+        font-size: 3rem;
+        color:#333;
+        font-weight: bolder;
+    }
+    
+    
+    header .logo span{
+        color:var(--pink);
+        }
+       
+        header .navbar a{
+        font-size: 2rem;
+        padding: 0 1.5rem;
+        color: #666;
+    }
+     
+        header #toggler{
+            display: none;
+        }
+           
+         header .fa-bars{
+            font-size: 3rem; color: #333;
+            border-radius: .5rem;
+            padding: .5rem 1.5rem;
+            cursor: pointer;
+            border: .1rem solid rgba(0,0,0,.3);
+            display: none;
+         }
+         
+
+#ttitulo{
+    text-align: center;
+    font-size: 25px;
+}  
+
+#best {
+    color: var(--pink);
+}
+    
+
+
+     .zoe1{
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 3fr 3fr 3fr;
+        gap: 50px;
+        margin-left: 10px;
+        align-items: center;  
+        text-align: center;
+        grid-template-areas:
+        "mmujeres1 mmujeres2 mmujeres3"
+    }
+   
+   
+    #muj1 {
+        height: 250px;
+        width: 250px;
+    }
+   
+   
+    #muj2 {
+        height: 250px;
+        width: 250px;
+    }
+   
+   
+    #muj3 {
+        height: 250px;
+        width: 250px;
+    }
+   
+   
+    .zoe2{
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 3fr 3fr 3fr;
+        gap: 255px;
+        margin-left: 150px;
+        align-items: center;  
+        text-align: center;
+        grid-template-areas:
+        "hhombres1 hhombres2 hhombres3"
+    }
+   
+   
+    #hombres {
+        height: 250px;
+        width: 250px;
+        place-items: center;
+    }
+   
+   
+    #hom1 {
+        height: 250px;
+        width: 250px;
+    }
+   
+   
+    #hom2 {
+        height: 250px;
+        width: 250px;
+    }
+   
+   
+    #hom3 {
+        height: 350px;
+        width: 350px;
+    }
+   
+   
+    .zoe3{
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 3fr 3fr 3fr;
+        gap: 290px;
+        margin-left: 150px;
+        align-items: center;  
+        text-align: center;
+        grid-template-areas:
+        "kkids1 kkids2 kkids3"
+    }
+   
+   
+    #kid1 {
+        height: 250px;
+        width: 250px;
+    }
+   
+   
+    #kid2 {
+        height: 250px;
+        width: 250px;
+    }
+   
+   
+    #kid3 {
+        height: 250px;
+        width: 250px;
+    }
+   
+   
+    h5 {
+        color:rgb(44, 43, 43);
+    }
+   
+   
+    button {
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+   
+    h4{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+
+#evaoh {
+        text-align: center;
+        margin-top: 20px; 
+    }
+    
+    #evaohoh {
+        padding: 10px;
+        width: 600px; 
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    
+    #rvaohohoh {
+        list-style-type: none;
+        padding: 0;
+        max-height: 300px; 
+        overflow-y: auto; 
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        text-align: left; 
+    }
+    
+    #evaohohoh li {
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    #evaohohoh li:hover {
+        background-color: #f0f0f0;
+    }
+    
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 9%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        z-index: 1000;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    }
+    
+    
+    header .logo span {
+        color: var(--pink);
+    }
+    
+    header .navbar {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .navbar a {
+        font-size: 2rem;
+        padding: 0 1.5rem;
+        color: #333;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: .2s linear;
+    }
+    
+    header .navbar a:hover {
+        color: var(--pink);
+    }
+    
+    header .icons {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .icons a {
+        font-size: 2.5rem;
+        color: #333;
+        margin-left: 1.5rem;
+    }
+    
+    header .icons a:hover {
+        color: var(--pink);
+    }
+    
+    header .cart-icon {
+        margin-right: auto; 
+    }
+    
+    header .cart-icon svg {
+        width: 3rem; 
+        height: 3rem; 
+    }
+    
+    .btn-1 {
+        color:black;
+        background-color: rgb(212, 212, 212);
+        height:30px;
+        width:80px;
+    }
+
+    .btn-2 {
+        color:black;
+        background-color: rgb(212, 212, 212);
+        height:30px;
+        width:80px;
+    }
+
+    .btn-3 {
+        color:black;
+        background-color: rgb(212, 212, 212);
+        height:30px;
+        width:80px;
+    }
+
+    .btn-4 {
+        color:black;
+        background-color: rgb(212, 212, 212);
+        height:30px;
+        width:80px;
+    }
+    
+    .btn-5 {
+        color:black;
+        background-color: rgb(212, 212, 212);
+        height:30px;
+        width:80px;
+    }
+
+    .btn-6 {
+        color:black;
+        background-color: rgb(212, 212, 212);
+        height:30px;
+        width:80px;
+    }
+
+    
+    .btn-7 {
+        color:black;
+        background-color: rgb(212, 212, 212);
+        height:30px;
+        width:80px;
+    }
+
+    
+    .btn-8 {
+        color:black;
+        background-color: rgb(212, 212, 212);
+        height:30px;
+        width:80px;
+    }
+
+
+    .btn-9 {
+        color:black;
+        background-color: rgb(212, 212, 212);
+        height:30px;
+        width:80px;
+    }
+
+    #cart {
+        display: none; 
+        position: fixed;
+        top: 120px; 
+        left: 950px; 
+        width: 500px; 
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        border-radius: 8px;
+    }
+
+    .hidden {
+        transform: translateX(400px);
+    }
+    
+    #cart h2 {
+        text-align: center;
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+    
+    #cart-items {
+        max-height: 400px;
+        overflow-y: auto;
+        margin-bottom: 20px;
+    }
+    
+    .cart-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+    
+    .cart-item img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    .cart-item h4 {
+        flex: 1;
+        font-size: 1.6rem;
+    }
+    
+    .cart-item span {
+        font-size: 1.4rem;
+    }
+    
+    .cart-item button {
+        background: none;
+        border: none;
+        color: var(--pink);
+        cursor: pointer;
+        font-size: 1.6rem;
+    }
+    
+    #cart-total {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+    
+    #checkout-button, #close-cart-button {
+        display: inline-block;
+        width: 48%;
+        padding: 10px;
+        font-size: 1.6rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+    
+    #checkout-button {
+        background: var(--pink);
+        color: #fff;
+    }
+    
+    #close-cart-button {
+        background: #ccc;
+        color: #333;
+    }
+    
+    #checkout-button:hover {
+        background: #e40073;
+    }
+    
+    #close-cart-button:hover {
+        background: #999;
+    }
+    
+    .cart-icon {
+        cursor: pointer;
+    }
+    
+    #chocolate {
+        text-align: left;
+        font-size: 25px;
+    }  
+
